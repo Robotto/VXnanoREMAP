@@ -1,0 +1,22 @@
+#VX nano specific:
+
+#scroll left mapped to F5:
+  "/usr/bin/xte 'key F5'"
+    m:0x0 + b:6
+#scroll right mapped to ALT+F4:
+  "/usr/bin/xte 'keydown Alt_L' 'key F4' 'keyup Alt_L'"
+    m:0x0 + b:7
+
+#front left mapped to middle mouse:
+#  "/usr/bin/xte 'mouseclick 2'"
+#    m:0x0 + b:9
+
+#back left mappet to back button:
+#  "xvkbd -xsendevent -text "\[XF86Back]""
+#    m:0x0 + b:8
+
+
+#top button
+#  "/usr/bin/xte 'keydown Control_L' 'keydown Shift_L' 'key t' 'keyup Control_L' 'keyup Shift_L'"
+#    m=0x0 + b:2
+

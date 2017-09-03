@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=xbindkeys
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=VX nano scroll remap
+Name=mouse_keymapper
+Comment[en_US]=binds the sidescrollers to keyboard keys
+Comment=binds the sidescrollers to keyboard keys
+Comment[en_us]=binds the sidescrollers to keyboard keys (which are defined in ~/.xbindkeysrc)
