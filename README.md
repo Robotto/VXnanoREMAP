@@ -30,23 +30,25 @@ Since ubuntu 16.04 libinput is used instead of the synaptics stuff (synclient)
 You may need to install:
 
 ```
-sudo apt install xserver-xorg-input-libinput libinput-tools
+sudo apt install xserver-xorg-input-libinput libinput-tools"
 ```
 List devices with:
 
 ```
 xinput list
 ```	
-
+"
 list device properties with:
 
 ```
 xinput list-props [ID] 
 ```	
 
-Change the values of "libinput Disable While Typing Enabled (305)" and "libinput Horizontal Scroll Enabled (293)" , 
+Change the values of "libinput Disable While Typing Enabled (305)" and "libinput Horizontal Scroll Enabled (293)"
 
 ```
 xinput set-prop [ID] 293 0
 xinput set-prop [ID] 305 0
 ```	
+
+##Note: Both ID and propertyvalues may differ.
