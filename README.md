@@ -51,4 +51,4 @@ xinput set-prop [ID] 293 0
 xinput set-prop [ID] 305 0
 ```	
 
-##Note: Both ID and propertyvalues may differ.
+## Note: Both ID and propertyvalues may differ.
